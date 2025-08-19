@@ -1,10 +1,28 @@
 {
   "name": "crud",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  },
   "description": "This is a simple **CRUD (Create, Read, Update, Delete)** application for managing products.  \r It is built with **Node.js, Express, MySQL** (backend) and **HTML, CSS, JavaScript** (frontend).  \r The system allows you to create, list, update, and delete products in a database.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "esbuild": "^0.25.9",
+    "fdir": "^6.5.0",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "picomatch": "^4.0.3",
+    "postcss": "^8.5.6",
+    "rollup": "^4.46.3",
+    "source-map-js": "^1.2.1",
+    "tinyglobby": "^0.2.14"
   },
   "repository": {
     "type": "git",
@@ -13,19 +31,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/RafaeRamirez/CRUD/issues"
   },
-  "homepage": "https://github.com/RafaeRamirez/CRUD#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "joi": "^18.0.0",
-    "mysql2": "^3.14.3"
-  },
-  "devDependencies": {
-    "vite": "^7.1.3"
-  }
+  "homepage": "https://github.com/RafaeRamirez/CRUD#readme"
 }
