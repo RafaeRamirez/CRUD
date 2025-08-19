@@ -55,6 +55,8 @@ app.get("/api/productos", async (req, res) => {
     res.status(500).json({ error: "Error al obtener productos" });
   }
 });
+ 
+
 
 // Obtener un producto por ID
 app.get("/api/productos/:id", async (req, res) => {
