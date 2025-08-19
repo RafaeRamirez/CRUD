@@ -1,0 +1,31 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "This is a simple **CRUD (Create, Read, Update, Delete)** application for managing products.  \r It is built with **Node.js, Express, MySQL** (backend) and **HTML, CSS, JavaScript** (frontend).  \r The system allows you to create, list, update, and delete products in a database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaeRamirez/CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RafaeRamirez/CRUD/issues"
+  },
+  "homepage": "https://github.com/RafaeRamirez/CRUD#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "joi": "^18.0.0",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
+}
