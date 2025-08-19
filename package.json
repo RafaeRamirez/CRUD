@@ -14,8 +14,12 @@
   "description": "This is a simple **CRUD (Create, Read, Update, Delete)** application for managing products.  \r It is built with **Node.js, Express, MySQL** (backend) and **HTML, CSS, JavaScript** (frontend).  \r The system allows you to create, list, update, and delete products in a database.",
   "main": "index.js",
   "dependencies": {
+    "cors": "^2.8.5",
     "esbuild": "^0.25.9",
+    "express": "^5.1.0",
     "fdir": "^6.5.0",
+    "joi": "^18.0.0",
+    "mysql2": "^3.14.3",
     "nanoid": "^3.3.11",
     "picocolors": "^1.1.1",
     "picomatch": "^4.0.3",
